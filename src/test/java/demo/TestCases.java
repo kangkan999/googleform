@@ -54,7 +54,6 @@ public class TestCases {
          System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "build/chromedriver.log"); 
  
          driver = new ChromeDriver(options);
- 
          driver.manage().window().maximize();
 
          driver.get("https://docs.google.com/forms/d/e/1FAIpQLSep9LTMntH5YqIXa5nkiPKSs283kdwitBBhXWyZdAS-e4CxBQ/viewform");
